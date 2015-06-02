@@ -1,5 +1,5 @@
 public with sharing class CampaignController {
-	
+	// This is master
 	String campaignOption;
 	public Boolean Section {get;set;}
 	public Boolean pagination {get; set;}
