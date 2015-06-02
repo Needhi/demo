@@ -1,5 +1,5 @@
 trigger CheckDuplicates_Trigger on Contact (before insert) {
-
+	// this is same commit check
     public CheckDuplicates_Handler handler = new CheckDuplicates_Handler();
     
     Map<String, Contact> contactMap = new Map<String,Contact>();
