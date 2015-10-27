@@ -22,7 +22,8 @@
 @isTest
 private class CheckDuplicateContact {
 
-    static testMethod void checkDuplicateTest() {
+    // This is new extra commit 2
+	static testMethod void checkDuplicateTest() {
         
         Contact contact = new Contact(LastName = 'Barrl', Email = 'barrl_tim@grandhotels.com', Phone = '(312) 596-1999');
         insert contact;
