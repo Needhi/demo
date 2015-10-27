@@ -1,5 +1,5 @@
 public with sharing class CampaignController {
-	// This is master
+	// This is b1 branch
 	String campaignOption;
 	public Boolean Section {get;set;}
 	public Boolean pagination {get; set;}
@@ -10,7 +10,7 @@ public with sharing class CampaignController {
 		Section=false;
 		pagination = false;		
 	}
-	
+	// This is commit 1
 	Integer pageSize =2;
 	Integer pgNum =0;
 	//This is for second commit
